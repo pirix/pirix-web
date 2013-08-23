@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{page.title}} – Pirix Operating System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/normalize.css" type="text/css" rel="stylesheet" />
+    <link href="/css/gridism.css" type="text/css" rel="stylesheet" />
+    <link href="/css/style.css" type="text/css" rel="stylesheet" />
+    <link href="/css/pygments.css" type="text/css" rel="stylesheet" />
+    <link rel="icon" href="/gfx/favicon.png" type="image/png">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <nav class="mobile-nav show-on-mobiles">
+          {% include nav-items.html %}
+        </nav>
+        <div class="grid no-gutters center-on-mobiles">
+          <div id="logo" class="unit one-quarter">
+            <h1>
+              <a href="/">
+                <span>Pirix</span>
+                <img src="/gfx/logo.png" height="60" width="138" />
+              </a>
+            </h1>
+          </div>
+
+          <nav class="main-nav unit three-quarters hide-on-mobiles">
+            {% include nav-items.html %}
+          </nav>
+        </div>
+      </header>
+
+      <section id="content">
+        {{content}}
+      </section>
+
+      <footer class="center-on-mobiles">
+        &copy; 2012-2013 Thomas Gatzweiler
+      </footer>
+    </div>
+  </body>
+</html>

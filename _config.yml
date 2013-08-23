@@ -1,0 +1,9 @@
+destination: _site
+plugins: _plugins
+exclude: [Rakefile]
+permalink: pretty
+
+pygments: true
+lsi: false
+future: false
+markdown: maruku
