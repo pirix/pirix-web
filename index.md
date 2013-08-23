@@ -10,7 +10,7 @@ microkernel-based operating system.
 
 Pirix has to be build from source because currently there are no
 ready-to-use images available. Instructions on how to build Pirix can
-be found in the Documentation.
+be found in the [Documentation](/doc/building/).
 
 ## Supported Platforms
 

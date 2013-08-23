@@ -24,8 +24,8 @@ $ ./prepare.sh
 $ ./build.sh
 {% endhighlight %}
 
-To install the finished toolchain to `/usr/local/cross` execute
-`./install.sh` as superuser. Be sure to add `/usr/local/cross` to your
+To install the finished toolchain to `/opt/pirix-toolchain` execute
+`./install.sh` as superuser. Be sure to add `/opt/pirix-toolchain/bin` to your
 `$PATH`.
 
 ## Compiling
@@ -38,11 +38,6 @@ The compilation is as simple as typing:
 {% highlight bash %}
 $ scons
 {% endhighlight %}
-
-If you have just installed the toolchain there will be an error of the
-missing `crt0.o`-file. To fix that just copy the freshly built
-`crt0.o` from `build/i386/lib/crt0.o` to
-`/usr/local/cross/i386-elf-pirix/lib/crt0.o` und run `scons` again.
 
 ## Testing
 
