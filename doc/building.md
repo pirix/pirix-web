@@ -3,10 +3,14 @@ title: Building Pirix
 layout: default
 ---
 
+# Building Pirix
+
+This is a guide on how to build Pirix from source. The build process is very simple but compiling the toolchain will take some time, especially on slower processors.
+
 ## Requirements
 
-Pirix should build on every POSIX-compatible operating but the build
-process has only been tested on Linux by now. You will need the
+Pirix should build on every POSIX-compatible operating system, but the build
+process has only been tested on Linux and Mac OS by now. You will need the
 following software:
 
 - [**GCC**](http://gcc.gnu.org/), the GNU Compiler Collection

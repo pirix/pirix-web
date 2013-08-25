@@ -3,12 +3,14 @@ title: Home
 layout: default
 ---
 
+# Pirix
+
 Pirix is an attempt to create a compact, POSIX-compatible and
 microkernel-based operating system.
 
 ## Getting started
 
-Pirix has to be build from source because currently there are no
+Pirix has to be build from source because there are currently no
 ready-to-use images available. Instructions on how to build Pirix can
 be found in the [Documentation](/doc/building/).
 

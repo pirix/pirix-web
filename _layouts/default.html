@@ -11,8 +11,8 @@
     <link rel="icon" href="/gfx/favicon.png" type="image/png">
   </head>
   <body>
-    <div id="wrapper">
-      <header>
+    <header>
+      <div id="header-container">
         <nav class="mobile-nav show-on-mobiles">
           {% include nav-items.html %}
         </nav>
@@ -30,15 +30,17 @@
             {% include nav-items.html %}
           </nav>
         </div>
-      </header>
+      </div>
+    </header>
 
-      <section id="content">
+    <section id="content">
+      <div id="content-container">
         {{content}}
-      </section>
+      </div>
+    </section>
 
-      <footer class="center-on-mobiles">
-        &copy; 2012-2013 Thomas Gatzweiler
-      </footer>
-    </div>
+    <footer class="center-on-mobiles">
+      &copy; 2012-2013 Thomas Gatzweiler
+    </footer>
   </body>
 </html>

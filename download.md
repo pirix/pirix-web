@@ -3,6 +3,8 @@ title: Download
 layout: default
 ---
 
+# Download
+
 ## Repository
 
 The source of Pirix is hosted on [GitHub](https://github.com/pirix/pirix).
