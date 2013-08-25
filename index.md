@@ -23,7 +23,7 @@ be found in the [Documentation](/doc/building/).
 
 ## License
 
-Copyright (C) 2012-2013 Thomas Gatzweiler
+Copyright &copy; 2012-2013 Thomas Gatzweiler
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

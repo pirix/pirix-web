@@ -1,12 +1,11 @@
 task :build do
   sh "rm -rf _site"
   sh "mkdir _site"
-  sh "jekyll build"
+  sh "jekyll"
 end
 
 task :default do
-  sh "mkdir -p _site"
-  sh "jekyll serve"
+  sh "jekyll --server 4000 --auto"
 end
 
 task :deploy => :build do
