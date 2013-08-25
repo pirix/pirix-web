@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700|Roboto+Slab|Inconsolata);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Overlock|Inconsolata);
 
 
 html {
@@ -10,7 +10,7 @@ body {
   padding: 0;
   line-height: 1.429;
   font-size: 87.5%;
-  font-family: "Open Sans", "Helvetica", sans-serif;
+  font-family: "Droid Sans", "Helvetica", sans-serif;
   color: #ecf0f1;
   min-height: 100%;
   position: relative;
@@ -19,7 +19,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #e67e22;
   text-shadow: 1px 1px 0px #222;
-  font-family: "Roboto Slab", serif;
+  font-family: "Overlock", Georgia, serif;
   line-height: 1.1;
   margin-bottom: .8em;
   font-weight: normal;
