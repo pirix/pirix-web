@@ -14,7 +14,7 @@ You can clone the repository with this command:
 $ git clone git://github.com/pirix/pirix.git
 {% endhighlight %}
 
-Or can download the lastest revision from  as:
+Or can download the lastest revision as:
 
 - [.tar.gz](https://github.com/pirix/pirix/archive/master.tar.gz)
 - [.zip](https://github.com/pirix/pirix/archive/master.zip)

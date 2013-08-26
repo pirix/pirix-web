@@ -39,8 +39,9 @@ h6 { font-size: 1em; }
 
 header {
   background-color: #1c2e40;
+  background: url(/gfx/noisy_net.png);
   border-bottom: 1px solid #435160;
-  padding: 5px;
+  padding: 5px 20px;
   margin: 0 auto;
 }
 
@@ -50,13 +51,12 @@ header h1 span {
 
 .main-nav {
   text-align: right;
-  margin-top: 30px;
+  margin-top: 33px;
 }
 
 .main-nav ul {
   margin: 0;
   padding: 0;
-  padding-left: 40px;
 }
 
 .main-nav ul li {
@@ -177,10 +177,35 @@ header h1 span {
   margin: 0;
 }
 
+.post-time {
+  font-size: 0.85em;
+}
+
 footer {
-  font-size: 0.9em;
-  padding: 20px;
   border-top: 1px solid #192533;
   background-color: #1c2e40;
-  text-align: center;
+}
+
+#copyright {
+  height: auto;
+  vertical-align: baseline;
+  line-height: 2em;
+}
+
+#footer-container {
+  padding: 20px 0;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 650px;
+}
+
+#footer-links a {
+  margin: 0 8px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.25s;
+}
+
+#footer-links a:hover {
+  color: #e67e22;
 }
